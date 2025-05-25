@@ -4,7 +4,7 @@ const crypto = require("crypto");
 const app = express();
 
 const VERIFICATION_TOKEN = "my_custom_verification_token_2025_1234567890";
-const ENDPOINT_URL = "https://your-render-subdomain.onrender.com/notifications";
+const ENDPOINT_URL = "https://ebay-webhook-mg9p.onrender.com/notifications";
 
 app.use(express.json());
 
